@@ -77,3 +77,17 @@ header {
   margin-top: 1rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  #calc-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*margin-top: 1rem;
+    text-align: center;*/
+  }
+
+  #calc-actions button {
+    margin: auto 0.2rem;
+  } 
+}
